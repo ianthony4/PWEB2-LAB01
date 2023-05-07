@@ -23,11 +23,17 @@ public class Calculadora {
             //case 5 : modulo
 
         }
-    }   
+    }
+
     public static int add(int a, int b){
         return a+b;
-    } 
+    }
+
     public static int sub(int a,int b){
         return a-b;
     }
+    
+    //func. Mul
+    //func. Div
+    //func. Mod
 }
