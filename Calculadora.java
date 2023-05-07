@@ -10,7 +10,19 @@ public class Calculadora {
         b = sc.nextInt();
         System.out.print("Elija una operacion\n1 -> Suma\n2 -> Resta\n3 -> Multiplicacion\n4 -> Division\n5 -> Modulo\nEleccion: ");
         int opcion = sc.nextInt();
-        
+
+        switch(opcion){
+            case 1:
+                System.out.println(add(a, b));
+            break;
+            case 2:
+                System.out.println(sub(a, b));
+            break;
+            //case 3 : multiplicacion
+            //case 4 : division
+            //case 5 : modulo
+
+        }
     }   
     public int add(int a, int b){
         return a+b;
