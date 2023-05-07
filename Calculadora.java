@@ -8,7 +8,9 @@ public class Calculadora {
         a = sc.nextInt();
         System.out.println("Ingrese el segundo numero: ");
         b = sc.nextInt();
-    
+        System.out.print("Elija una operacion\n1 -> Suma\n2 -> Resta\n3 -> Multiplicacion\n4 -> Division\n5 -> Modulo\nEleccion: ");
+        int opcion = sc.nextInt();
+        
     }   
     public int add(int a, int b){
         return a+b;
