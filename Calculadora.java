@@ -36,6 +36,9 @@ public class Calculadora {
     public static int mul(int a,int b){
         return a*b;
     }
-    //func. Div
+
+    public static double div(int a,int b){
+        return a/b;
+    }
     //func. Mod
 }
