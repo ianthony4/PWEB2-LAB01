@@ -33,7 +33,9 @@ public class Calculadora {
         return a-b;
     }
     
-    //func. Mul
+    public static int mul(int a,int b){
+        return a*b;
+    }
     //func. Div
     //func. Mod
 }
