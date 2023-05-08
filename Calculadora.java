@@ -18,10 +18,16 @@ public class Calculadora {
             case 2:
                 System.out.println(sub(a, b));
             break;
-            //case 3 : multiplicacion
-            //case 4 : division
-            //case 5 : modulo
-
+            case 3:
+                System.out.println(mul(a, b));
+            break;
+            case 4:
+                System.out.println(div(a, b));
+            break;
+            case 5:
+                System.out.println(mod(a, b));
+            break;
+            
         }
     }
 
@@ -33,7 +39,15 @@ public class Calculadora {
         return a-b;
     }
     
-    //func. Mul
-    //func. Div
-    //func. Mod
+    public static int mul(int a,int b){
+        return a*b;
+    }
+
+    public static double div(int a,int b){
+        return a/b;
+    }
+
+    public static int mod(int a,int b){
+        return a%b;
+    }
 }
