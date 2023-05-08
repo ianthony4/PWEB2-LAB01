@@ -40,5 +40,8 @@ public class Calculadora {
     public static double div(int a,int b){
         return a/b;
     }
-    //func. Mod
+    
+    public static int mod(int a,int b){
+        return a%b;
+    }
 }
